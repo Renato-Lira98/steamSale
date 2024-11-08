@@ -1,6 +1,6 @@
 # Projeto de Extração de Dados - SteamDB Sales
 
-Este projeto realiza a extração de informações da base de dados disponível no site [SteamDB Sales](https://steamdb.info/sales/), armazena os dados no Google BigQuery e, em seguida, exporta ou conecta esses dados a um Google Sheets.
+Este projeto realiza a extração de informações da base de dados disponível no site [SteamDB Sales](https://steamdb.info/sales/), armazena os dados no Google BigQuery e, em seguida, os dados são disponibilizadps no Google Sheets.
 
 ## Objetivos
 
@@ -11,7 +11,9 @@ Este projeto realiza a extração de informações da base de dados disponível 
 ## Tecnologias Utilizadas
 
 - **Python**: Para o desenvolvimento do processo de extração e manipulação dos dados.
+- **Proxies**: Para o web scraping dos dados do site.
 - **Google Cloud BigQuery**: Para armazenar os dados extraídos.
 - **Google Sheets API**: Para exportar ou conectar os dados no Google Sheets.
 - **BeautifulSoup**: Para o web scraping dos dados do site.
 - **Pandas**: Para manipulação de dados antes do upload para o BigQuery.
+  
